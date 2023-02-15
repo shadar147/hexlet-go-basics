@@ -36,7 +36,3 @@ func theory2Main() {
 func externalHTTPNum() int {
 	return rand.Intn(13)
 }
-
-func Test() {
-	theory2Main()
-}

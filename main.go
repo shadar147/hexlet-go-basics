@@ -2,13 +2,10 @@
 package main
 
 import (
-	"fmt"
-	"hexlet/go-basics/exercise/ex10"
+	"hexlet/go-basics/exercise/ex11"
 )
 
 // Определение функции main
 func main() {
-	res := ex10.ModifySpaces("github dot com", "")
-
-	fmt.Println(res)
+	ex11.Test()
 }
