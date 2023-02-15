@@ -1,5 +1,7 @@
 package ex8
 
+import "fmt"
+
 func Test() {
-	Greetings(" вадим")
+	fmt.Println(Greetings(" вадим"))
 }

@@ -1,5 +1,7 @@
 package ex7
 
+import "fmt"
+
 func Test() {
-	IsValid(12, "text")
+	fmt.Println(IsValid(12, "text"))
 }

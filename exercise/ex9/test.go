@@ -1,5 +1,7 @@
 package ex9
 
+import "fmt"
+
 func Test() {
-	DomainForLocale("hexlet.io", "ru")
+	fmt.Println(DomainForLocale("hexlet.io", "ru"))
 }

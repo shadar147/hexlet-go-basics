@@ -1,5 +1,7 @@
 package ex10
 
+import "fmt"
+
 func Test() {
-	ModifySpaces("Hello, world!", "dash")
+	fmt.Println(ModifySpaces("Hello, world!", "dash"))
 }
