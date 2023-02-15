@@ -3,12 +3,12 @@ package main
 
 import (
 	"fmt"
-	"hexlet/go-basics/exercise/ex5"
+	"hexlet/go-basics/exercise/ex6"
 )
 
 // Определение функции main
 func main() {
-	s := ex5.IntToString(12)
+	m := ex6.MinInt(12, 3)
 
-	fmt.Println(s)
+	fmt.Println(m)
 }
