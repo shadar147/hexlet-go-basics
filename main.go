@@ -3,12 +3,12 @@ package main
 
 import (
 	"fmt"
-	"hexlet/go-basics/exercise/ex8"
+	"hexlet/go-basics/exercise/ex9"
 )
 
 // Определение функции main
 func main() {
-	res := ex8.Greetings(" вадим")
+	res := ex9.DomainForLocale("github.com", "")
 
 	fmt.Println(res)
 }
