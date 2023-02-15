@@ -2,10 +2,10 @@
 package main
 
 import (
-	"hexlet/go-basics/exercise/ex11"
+	"hexlet/go-basics/exercise/ex12"
 )
 
 // Определение функции main
 func main() {
-	ex11.Test()
+	ex12.Test()
 }
