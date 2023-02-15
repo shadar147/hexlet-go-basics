@@ -2,10 +2,13 @@
 package main
 
 import (
-	"hexlet/go-basics/exercise/ex4"
+	"fmt"
+	"hexlet/go-basics/exercise/ex5"
 )
 
 // Определение функции main
 func main() {
-	ex4.PrintName()
+	s := ex5.IntToString(12)
+
+	fmt.Println(s)
 }
