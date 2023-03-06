@@ -7,17 +7,6 @@ type ListNode struct {
 	Val  int
 }
 
-func (head *ListNode) dReverse() *ListNode {
-	var prev *ListNode
-	for head != nil {
-		next := head.Next
-		head.Next = prev
-		prev = head
-		head = next
-	}
-	return prev
-}
-
 func (head *ListNode) Reverse() *ListNode {
 	if head == nil {
 		return nil
